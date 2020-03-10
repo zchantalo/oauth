@@ -6,7 +6,7 @@
 - [ ] Part 3: Passport Configuration
 - [ ] Part 4: PostgreSQL Store and Retrieve
 
-## User Activity
+## Authentication Strategy
 - [ ] Part 5: Progress Refresh
 - [ ] Part 6: Cookie Session
 - [ ] Part 7: Viewing Profile
