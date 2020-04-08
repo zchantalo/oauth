@@ -26,5 +26,22 @@
 > nodemon index.js
 ```
 
+## Part 4: Store all users to Database (e.g. PostgreSQL)
+```bash
+> npm install pg path dotenv
+# Launch pgadmin and create 'oauth' schema with 'user' table
+# create table "oauth".user(
+# 	id numeric primary key,
+# 	name varchar(100),
+# 	picture text
+# );
+> nodemon index.js
+```
+
+OAuth Exercises
+- [ ] OAuth_Ex1: Add styles to `homepage` and `login` pages. You may use any css frameworks (e.g. bootstrap, materialize, or foundation)
+- [ ] OAuth_Ex2: Add animations (loading) and transitions (fade in, fade out) to the same pages. You may use our previous animation exercises (e.g. 4-circle loading animation)
+- [ ] OAuth_E3: Consider to create a PostgreSQL function or procedure to replace the codes in `passport-setup.js` particularly line numbers 17-36.
+
 ### Troubleshooting Guide/Issues
 * [Passport Google OAuth Strategy](https://developerhandbook.com/passport.js/how-to-add-passportjs-google-oauth-strategy/)
