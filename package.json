@@ -1,9 +1,10 @@
 {
   "name": "030520",
   "version": "1.0.0",
-  "description": "",
+  "description": "```bash\r > npm init -y\r > npm install express ejs\r > npm install nodemon -g\r > nodemon index.js\r ```",
   "main": "index.js",
   "scripts": {
+    "oauth-start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/cbatuic/oauth#readme",
   "dependencies": {
-    "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
   }
 }
